@@ -1,0 +1,131 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\59ca21adb2bf6229cb958437597afb93\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\99f31b9fdd82833a3801a35e0280ac65\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:3:2-27
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:3:52-77
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:3:28-51
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:5:2-73
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:5:19-70
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:6:2-73
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:6:19-70
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:7:2-75
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:7:19-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:8:2-76
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:8:19-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:9:2-77
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:9:19-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:10:2-77
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:10:19-75
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:11:2-82
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:11:19-80
+application
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:13:2-33:16
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\59ca21adb2bf6229cb958437597afb93\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\59ca21adb2bf6229cb958437597afb93\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\99f31b9fdd82833a3801a35e0280ac65\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\99f31b9fdd82833a3801a35e0280ac65\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:13:45-77
+	android:icon
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:13:15-44
+activity#org.WIFIScanner.WIFIScanner
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:14:3-19:14
+	android:label
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:14:41-73
+	android:theme
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:14:74-132
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:14:13-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:15:4-18:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:16:5-57
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:16:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:17:15-62
+activity#org.WIFIScanner.IOTMap
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:20:3-25:14
+	android:label
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:20:36-68
+	android:theme
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:20:69-127
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:20:13-35
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:21:4-24:20
+action#android.intent.action.VIEW
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:22:5-57
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:22:13-54
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:23:5-64
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:23:15-61
+activity#org.WIFIScanner.TouchFragment
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:26:3-31:14
+	android:label
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:26:43-75
+	android:theme
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:26:76-134
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:26:13-42
+intent-filter#action:name:android.intent.action.DEFAULT+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:27:4-30:20
+action#android.intent.action.DEFAULT
+ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:28:5-60
+	android:name
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml:28:13-57
+uses-sdk
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\59ca21adb2bf6229cb958437597afb93\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\59ca21adb2bf6229cb958437597afb93\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\99f31b9fdd82833a3801a35e0280ac65\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hawks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\99f31b9fdd82833a3801a35e0280ac65\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hawks\Downloads\WIFIScanner\app\src\main\AndroidManifest.xml

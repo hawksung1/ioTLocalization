@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:background="@drawable/map" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List" />
+
+
+    </LinearLayout>
+
+    <!-- 여기부터 추가된 부분-->
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Move"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/user"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/character" />
+
+    <TextView
+        android:id="@+id/tv_roll"
+        android:layout_width="191dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_pitch"
+        android:layout_width="189dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/tv_roll" />
+
+    <ImageView
+        android:id="@+id/ok_sign"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutWhole"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btnMove"
+        android:text="Start" />
+
+    <ImageView
+        android:id="@+id/iot1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="122dp"
+        android:layout_marginEnd="228dp"
+        android:src="@drawable/fridge" />
+
+    <ImageView
+        android:id="@+id/iot2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/iot1"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="-122dp"
+        android:src="@drawable/cleaner" />
+
+    <ImageView
+        android:id="@+id/iot3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/ok_sign"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/retrotv" />
+
+    <ImageView
+        android:id="@+id/modify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="252dp"
+        android:layout_marginTop="25dp" />
+
+    <LinearLayout
+        android:id="@+id/map_dynamicArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button
+		android:id="@+id/btnScanStart"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:text="IoT Scan"/>
+	<Button
+		android:id="@+id/btnScanStop"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp"
+		android:layout_toRightOf="@id/btnScanStart"
+		android:text="Scan Stop"/>
+	<EditText
+		android:id="@+id/editText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btnScanStart"
+		android:hint="Input"/>
+	<Button
+		android:id="@+id/btnInsert"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/btnScanStart"
+		android:text="search" />
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/editText"
+		android:textSize="15dp"
+		android:text="IoT list" />
+
+	<ListView
+		android:id="@+id/listview"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="2dip"
+		android:layout_marginBottom="2dip"
+		android:drawSelectorOnTop="false"
+		android:visibility="visible"
+		android:choiceMode="singleChoice"
+		android:divider="#ffcc22"
+		android:dividerHeight="2dp"
+		android:layout_below="@id/textView"/>
+
+	<Button
+		android:id="@+id/btnMap"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:text="Map" />
+
+
+
+</RelativeLayout>
